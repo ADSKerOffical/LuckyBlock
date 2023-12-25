@@ -62,7 +62,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Kill all",
+	Name = "Kill all(technical difficulites)",
 	Callback = function()
       		
 local range = 1000
@@ -131,7 +131,7 @@ end)
 })
 
 Tab:AddButton({
-	Name = "Reach sword",
+	Name = "Reach sword(technical difficulites)",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastebin.com/raw/wyXt5xmu"))()
   	end    
